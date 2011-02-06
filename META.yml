@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               MooseX-Collect
-version:            0.90
+version:            0.91
 abstract:           provides method modifier for collecting method calls from roles and superclasses
 author:
     - Alessandro Ranellucci <aar@cpan.org>
