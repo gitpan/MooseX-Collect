@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               MooseX-Collect
-version:            0.91
+version:            0.92
 abstract:           provides method modifier for collecting method calls from roles and superclasses
 author:
     - Alessandro Ranellucci <aar@cpan.org>
@@ -20,6 +20,8 @@ no_index:
     directory:
         - t
         - inc
+    package:
+        - MooseX::Collect::Method
 generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html

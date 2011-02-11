@@ -21,13 +21,16 @@ my %WriteMakefileArgs = (
     'PREREQ_PM' => {
         'Moose' => '1.21',
     },
-    'VERSION' => '0.91',
+    'VERSION' => '0.92',
     'test' => {
         'TESTS' => 't/*.t'
     },
     'META_MERGE' => {
         resources => {
             repository => 'git://git@github.com:alexrj/MooseX-Collect.git',
+        },
+        no_index => {
+            package => [qw(MooseX::Collect::Method)]
         },
     },
 );
